@@ -1,6 +1,5 @@
 package org.example;
 
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
@@ -13,6 +12,6 @@ public class FilloutPage extends AbstractStepDefs {
     }
 
     @Given("the {string} is filled with {string}")
-    public void theCaptchaContainerIsFilledWithResult() { homePage.solveCaptcha();
+    public void theCaptchaContainerIsFilledWithResult() { homePage.fillCaptcha();
     }
 }

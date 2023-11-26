@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1869cc98-b1d5-44bb-b982-395c518937c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FilloutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AbstractStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AbstractStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CommonStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CommonStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FilloutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FilloutPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/org.example/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/org.example/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/org.example/login.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/org.example/loginButtonClick.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/org.example/loginButtonClick.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700913044314</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FilloutPage added, 2 Scenarios are added">
+      <created>1701031298606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701031298606</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +93,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="4 classes added (homepage, AbstractStepDefs, CommonStepDefs, RunCucumberTest) and 2 feature files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 classes added (homepage, AbstractStepDefs, CommonStepDefs, RunCucumberTest) and 2 feature files added" />
+    <MESSAGE value="FilloutPage added, 2 Scenarios are added" />
+    <option name="LAST_COMMIT_MESSAGE" value="FilloutPage added, 2 Scenarios are added" />
   </component>
 </project>

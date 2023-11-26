@@ -1,9 +1,9 @@
-Feature: Fillout Form
+Feature: Fill out Form
 
   Background:
     Given the home page is opened
 
-    Scenario Outline: Testing first Fillout Form with correct input
+    Scenario Outline: Testing first Fill out Form with correct input
       When the 'FilloutForms' is clicked
       Then user redirected to 'https://ultimateqa.com/filling-out-forms/'
       Given the 'name1' field is filled with '<name1>'

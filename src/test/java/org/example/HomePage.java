@@ -32,7 +32,8 @@ public class HomePage {
             "name1", By.id("et_pb_contact_name_0"),
             "message1", By.id("et_pb_contact_message_0"),
             "name2", By.id("et_pb_contact_name_1"),
-            "message2", By.id("et_pb_contact_message_1")
+            "message2", By.id("et_pb_contact_message_1"),
+            "result", By.className("")
     );
 
     public HomePage(WebDriver driver){
@@ -55,13 +56,16 @@ public class HomePage {
     public String getOutputMessage(){
         return outputMessage.getText();
     }
-    public void solveCaptcha(){
+    public void fillCaptcha(){ driver.findElement(textFields.get("result")).sendKeys(solveCaptcha());
+    }
+
+    public String solveCaptcha(){
         String captchaQuestion = captchaQuestionElement.getText();
         String[] numbers = captchaQuestion.split("\\s+");
         int firstNumber = Integer.parseInt(numbers[0]);
         int secondNumber = Integer.parseInt(numbers[2]);
         int sum = firstNumber + secondNumber;
-        inputCaptcha.sendKeys(String.valueOf(sum));
+        return String.valueOf(sum);
     }
 
 }
