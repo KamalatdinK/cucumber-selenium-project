@@ -9,9 +9,9 @@ Feature: PhpTravels User Login
       Given the 'Username' field is filled with '<email>'
       And the 'Password' field is filled with '<password>'
       And the 'Login' button is clicked
-      Then the '<errorMessage>' message is shown
+      Then the '<errorMessage>' message is shown21
       Examples:
-      | username                             | password           | errorMessage                                     |
+      | email                             | password           | errorMessage                                     |
       |                                      |                    | Login Details Incorrect. Please try again.       |
       |                                      | incorrect_password | Login Details Incorrect. Please try again.       |
       | user@gmai.com                        |                    | Login Details Incorrect. Please try again.       |
