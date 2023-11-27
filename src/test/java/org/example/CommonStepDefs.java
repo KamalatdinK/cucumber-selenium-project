@@ -20,10 +20,12 @@ public class CommonStepDefs extends AbstractStepDefs{
         homePage.fillOutField(field, text);
     }
 
-    @Given("the {string} page is opened")
+    @Then("the {string} page is opened")
     public void theUserIsDirectedToPageUrl(String pageUrl) {
         assertEquals(pageUrl, homePage.getPageUrl());
     }
+
+
 
     @AfterAll
     public static void cleanup(){homePage.closePage();}

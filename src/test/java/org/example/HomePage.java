@@ -15,22 +15,23 @@ public class HomePage {
 
     private final WebDriver driver;
 
-    @FindBy(className = "validation-summary-errors")
-    WebElement outputMessage;
+    @FindBy(xpath = "/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[1]/div/span")
+    WebElement outputMessage1;
 
-
-
+    @FindBy(xpath = "/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[1]/div/ul/li")
+    WebElement outputMessage2;
 
     public static final Map<String, By> navigationButtons = Map.of(
             "Login", By.xpath("/html/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a"),
-            "Log in", By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[5]/input")
-
+            "Log in", By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[5]/input"),
+            "Subscribe", By.id("newsletter-subscribe-button")
     );
 
 
     public static final Map<String, By> textFields = Map.of(
             "email", By.id("Email"),
-            "password", By.id("Password")
+            "password", By.id("Password"),
+            "NewsletterField", By.id("newsletter-email")
     );
 
     public HomePage(WebDriver driver){
@@ -51,18 +52,12 @@ public class HomePage {
     public String getPageUrl() {
         return driver.getCurrentUrl();
     }
-    public String getOutputMessage(){
-        return outputMessage.getText();
+    public String getOutputMessage1(){
+        return outputMessage1.getText();
+    }
+    public String getOutputMessage2(){
+        return outputMessage2.getText();
     }
 
-
-    public String solveCaptcha(){
-        String captchaQuestion = captchaQuestionElement.getText();
-        String[] numbers = captchaQuestion.split("\\s+");
-        int firstNumber = Integer.parseInt(numbers[0]);
-        int secondNumber = Integer.parseInt(numbers[2]);
-        int sum = firstNumber + secondNumber;
-        return String.valueOf(sum);
-    }
 
 }
