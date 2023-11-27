@@ -20,9 +20,9 @@ public class CommonStepDefs extends AbstractStepDefs{
         homePage.fillOutField(field, text);
     }
 
-    @Then("user redirected to {string}")
-    public void RedirectToPage(String url){
-        assertEquals( url , homePage.getPageUrl());
+    @Given("the {string} page is opened")
+    public void theUserIsDirectedToPageUrl(String pageUrl) {
+        assertEquals(pageUrl, homePage.getPageUrl());
     }
 
     @AfterAll
