@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1869cc98-b1d5-44bb-b982-395c518937c1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AbstractStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AbstractStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CommonStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CommonStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FilloutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FilloutPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/org.example/loginButtonClick.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/org.example/loginButtonClick.feature" afterDir="false" />
     </list>
@@ -80,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701032796304</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="checkpoint before sleep">
+      <created>1701033994231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701033994231</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +110,7 @@
     <MESSAGE value="4 classes added (homepage, AbstractStepDefs, CommonStepDefs, RunCucumberTest) and 2 feature files added" />
     <MESSAGE value="FilloutPage added, 2 Scenarios are added" />
     <MESSAGE value="solving captcha added" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving captcha added" />
+    <MESSAGE value="checkpoint before sleep" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkpoint before sleep" />
   </component>
 </project>
