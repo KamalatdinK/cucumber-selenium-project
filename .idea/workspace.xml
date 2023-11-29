@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1869cc98-b1d5-44bb-b982-395c518937c1" name="Changes" comment="website changed, classes and files modified">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ShoppingStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/org.example/shopping.feature" afterDir="false" />
+    <list default="true" id="1869cc98-b1d5-44bb-b982-395c518937c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/org.example/logout.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/org.example/shoppingBooks.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CommonStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CommonStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LoginStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/org.example/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/org.example/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ShoppingStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ShoppingStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/org.example/shopping.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,75 +53,15 @@
       <recent name="C:\Users\HP\IdeaProjects\SoftwareTesting\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Shopping the cheapest and the most expensive PCs">
-    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/login.feature" />
-      <option name="GLUE" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="SoftwareTesting" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: login" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Login attempts with correct input (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/login.feature" />
-      <option name="GLUE" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="SoftwareTesting" />
-      <option name="NAME_FILTER" value="^Login attempts with correct input$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login attempts with correct input$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login attempts with correct input" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Login attempts with incorrect input" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/login.feature" />
-      <option name="GLUE" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="SoftwareTesting" />
-      <option name="NAME_FILTER" value="^Login attempts with incorrect input$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login attempts with incorrect input$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login attempts with incorrect input" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Shopping the cheapest and the most expensive PCs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: shoppingBooks">
+    <configuration name="Feature: shopping" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/shopping.feature" />
       <option name="GLUE" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SoftwareTesting" />
-      <option name="NAME_FILTER" value="^Shopping the cheapest and the most expensive PCs$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Shopping the cheapest and the most expensive PCs$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Shopping the cheapest and the most expensive PCs" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: shopping" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -132,16 +73,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Soft Testing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
+    <configuration name="Feature: shoppingBooks" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/loginюfeature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/shoppingBooks.feature" />
       <option name="GLUE" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SoftwareTesting" />
-      <option name="NAME_FILTER" value="^Subscribing for newsletter correctly$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Subscribing for newsletter correctly$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Subscribing for newsletter correctly" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: shoppingBooks" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Buying belt, jeans and shoes" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/shopping.feature" />
+      <option name="GLUE" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SoftwareTesting" />
+      <option name="NAME_FILTER" value="^Buying belt\, jeans and shoes$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Buying belt\, jeans and shoes$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Buying belt, jeans and shoes" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Shopping some books (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/shoppingBooks.feature" />
+      <option name="GLUE" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SoftwareTesting" />
+      <option name="NAME_FILTER" value="^Shopping some books$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Shopping some books$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Shopping some books" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Shopping some books" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/shopping.feature" />
+      <option name="GLUE" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SoftwareTesting" />
+      <option name="NAME_FILTER" value="^Shopping some books$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Shopping some books$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Shopping some books" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -154,19 +153,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: login" />
-      <item itemvalue="Cucumber Java.Scenario: Login attempts with correct input (1)" />
-      <item itemvalue="Cucumber Java.Scenario: Login attempts with incorrect input" />
-      <item itemvalue="Cucumber Java.Scenario: Shopping the cheapest and the most expensive PCs" />
-      <item itemvalue="Cucumber Java.Soft Testing" />
+      <item itemvalue="Cucumber Java.Feature: shopping" />
+      <item itemvalue="Cucumber Java.Feature: shoppingBooks" />
+      <item itemvalue="Cucumber Java.Scenario: Buying belt, jeans and shoes" />
+      <item itemvalue="Cucumber Java.Scenario: Shopping some books" />
+      <item itemvalue="Cucumber Java.Scenario: Shopping some books (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Shopping the cheapest and the most expensive PCs" />
-        <item itemvalue="Cucumber Java.Scenario: Login attempts with correct input (1)" />
-        <item itemvalue="Cucumber Java.Scenario: Login attempts with incorrect input" />
-        <item itemvalue="Cucumber Java.Feature: login" />
-        <item itemvalue="Cucumber Java.Soft Testing" />
+        <item itemvalue="Cucumber Java.Feature: shoppingBooks" />
+        <item itemvalue="Cucumber Java.Scenario: Shopping some books (1)" />
+        <item itemvalue="Cucumber Java.Feature: shopping" />
+        <item itemvalue="Cucumber Java.Scenario: Shopping some books" />
+        <item itemvalue="Cucumber Java.Scenario: Buying belt, jeans and shoes" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701129565800</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Login and Logout added, shopping classes and files added">
+      <created>1701211359849</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701211359849</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,6 +259,7 @@
     <MESSAGE value="redirect method is not working, to check tmorrow" />
     <MESSAGE value="checkpoint for today" />
     <MESSAGE value="website changed, classes and files modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="website changed, classes and files modified" />
+    <MESSAGE value="Login and Logout added, shopping classes and files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login and Logout added, shopping classes and files added" />
   </component>
 </project>

@@ -15,4 +15,8 @@ public class ShoppingStepDefs extends AbstractStepDefs{
     public void thePriceShouldRead(String total) {
         assertEquals(total, homePage.getTotal());
     }
+
+    @Then("the {string} is shown")
+    public void theEmptyCartMessageIsShown(String emptyCartMessage) { assertEquals(emptyCartMessage, homePage.getEmptyCartMessage());
+    }
 }

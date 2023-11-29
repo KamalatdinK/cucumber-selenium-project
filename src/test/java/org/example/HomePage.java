@@ -27,12 +27,20 @@ public class HomePage {
     @FindBy(xpath = "/html/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/div[2]/div[2]/div[1]/table/tbody/tr[1]/td[2]/span/span")
     WebElement total;
 
+    @FindBy(xpath = "/html/body/div[4]/div[1]/div[4]/div/div[2]/div[2]/div")
+    WebElement emptyCartMessage;
+
     public static final Map<String, By> navigationButtons = Map.of(
             "Login", By.xpath("/html/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a"),
             "Log in", By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[5]/input"),
             "Log out", By.xpath("/html/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a"),
             "Register", By.xpath("/html/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a"),
-            "Books", By.xpath("/html/body/div[4]/div[1]/div[2]/ul[1]/li[1]/a")
+            "Books", By.xpath("/html/body/div[4]/div[1]/div[2]/ul[1]/li[1]/a"),
+            "Shopping Cart", By.cssSelector(".ico-cart .cart-label"),
+            "Appeals and Shoes", By.xpath("/html/body/div[4]/div[1]/div[2]/ul[1]/li[4]/a"),
+            "Remove1", By.xpath("/html/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/table/tbody/tr[1]/td[1]/input"),
+            "Remove2", By.xpath("/html/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/table/tbody/tr[2]/td[1]/input"),
+            "UpdateCart", By.xpath("/html/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/div[1]/div/input[1]")
     );
 
 
@@ -42,7 +50,10 @@ public class HomePage {
     );
     public static final Map<String, By> items = Map.of(
             "Computing and Internet", By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[1]/div/div[2]/div[3]/div[2]/input"),
-            "Fiction", By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[3]/div/div[2]/div[3]/div[2]/input")
+            "Fiction", By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[3]/div/div[2]/div[3]/div[2]/input"),
+            "Casual Golf Belt", By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[4]/div/div[2]/div[3]/div[2]/input"),
+            "Blue Jeans", By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[3]/div/div[2]/div[3]/div[2]/input"),
+            "Handbag",By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[7]/div/div[2]/div[3]/div[2]/input")
     );
 
     public HomePage(WebDriver driver){
@@ -72,9 +83,12 @@ public class HomePage {
 
     public String getAccountName(){ return accountName.getText();}
 
-    public void addItemToCart(String item) {
+    public void addItemToCart(String item) { driver.findElement(items.get(item)).click();
     }
 
     public String getTotal() { return total.getText();
+    }
+
+    public String getEmptyCartMessage() { return emptyCartMessage.getText();
     }
 }
