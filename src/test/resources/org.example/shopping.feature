@@ -1,6 +1,7 @@
 Feature: Shopping some items
   Background:
     Given the home page is opened
+    And the 'Log out' is clicked
     And the 'Login' is clicked
     And the 'https://demowebshop.tricentis.com/login' page is opened
     And the 'email' field is filled with 'kamalatdinqdirniyazov@gmail.com'
@@ -32,12 +33,13 @@ Feature: Shopping some items
       And the 'Register' text is shown
 
     #3 points
-    Scenario:
+    Scenario: Removing two items from cart
       Given the 'Shopping Cart' is clicked
-      And the 'Remove1' is clicked
-      And the 'Remove2' is clicked
+      And the 'RemoveItem1' is clicked
+      And the 'RemoveItem2' is clicked
       When the 'UpdateCart' is clicked
       Then the 'Your Shopping Cart is empty!' is shown
+      And the 'Log out' is clicked
 
 
 

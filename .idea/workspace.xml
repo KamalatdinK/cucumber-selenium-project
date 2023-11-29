@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1869cc98-b1d5-44bb-b982-395c518937c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WishlistStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/giftcardStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/org.example/makingWishlist.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/org.example/shoppinggiftcard.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AbstractStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AbstractStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CommonStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CommonStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/org.example/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/org.example/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/org.example/shopping.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/org.example/shopping.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +57,14 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RunCucumberTest">
-    <configuration name="Feature: shopping" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: giftCard" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/shopping.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/giftCard.feature" />
       <option name="GLUE" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SoftwareTesting" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: shopping" />
+      <option name="SUGGESTED_NAME" value="Feature: giftCard" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -69,14 +76,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: shoppingBooks" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: makingWishlist" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/shoppingBooks.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/makingWishlist.feature" />
       <option name="GLUE" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SoftwareTesting" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: shoppingBooks" />
+      <option name="SUGGESTED_NAME" value="Feature: makingWishlist" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -88,15 +95,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Shopping some books (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: shoppinggiftcard" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/shoppingBooks.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/shoppinggiftcard.feature" />
       <option name="GLUE" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SoftwareTesting" />
-      <option name="NAME_FILTER" value="^Shopping some books$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Shopping some books$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Shopping some books" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: shoppinggiftcard" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -108,15 +114,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Shopping some books" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Adding jewelry to the wishlist" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/shopping.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/org.example/makingWishlist.feature" />
       <option name="GLUE" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SoftwareTesting" />
-      <option name="NAME_FILTER" value="^Shopping some books$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Shopping some books$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Shopping some books" />
+      <option name="NAME_FILTER" value="^Adding jewelry to the wishlist$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Adding jewelry to the wishlist$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Adding jewelry to the wishlist" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -144,19 +150,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: shopping" />
-      <item itemvalue="Cucumber Java.Feature: shoppingBooks" />
-      <item itemvalue="Cucumber Java.Scenario: Shopping some books" />
-      <item itemvalue="Cucumber Java.Scenario: Shopping some books (1)" />
+      <item itemvalue="Cucumber Java.Feature: giftCard" />
+      <item itemvalue="Cucumber Java.Feature: makingWishlist" />
+      <item itemvalue="Cucumber Java.Feature: shoppinggiftcard" />
+      <item itemvalue="Cucumber Java.Scenario: Adding jewelry to the wishlist" />
       <item itemvalue="JUnit.RunCucumberTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunCucumberTest" />
-        <item itemvalue="Cucumber Java.Feature: shoppingBooks" />
-        <item itemvalue="Cucumber Java.Scenario: Shopping some books (1)" />
-        <item itemvalue="Cucumber Java.Feature: shopping" />
-        <item itemvalue="Cucumber Java.Scenario: Shopping some books" />
+        <item itemvalue="Cucumber Java.Feature: makingWishlist" />
+        <item itemvalue="Cucumber Java.Scenario: Adding jewelry to the wishlist" />
+        <item itemvalue="Cucumber Java.Feature: shoppinggiftcard" />
+        <item itemvalue="Cucumber Java.Feature: giftCard" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701217531284</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="some minor changes and checkpoint before sleep">
+      <created>1701220511605</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701220511605</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +272,7 @@
     <MESSAGE value="website changed, classes and files modified" />
     <MESSAGE value="Login and Logout added, shopping classes and files added" />
     <MESSAGE value="logout.feature is added and shopping.feature added" />
-    <option name="LAST_COMMIT_MESSAGE" value="logout.feature is added and shopping.feature added" />
+    <MESSAGE value="some minor changes and checkpoint before sleep" />
+    <option name="LAST_COMMIT_MESSAGE" value="some minor changes and checkpoint before sleep" />
   </component>
 </project>

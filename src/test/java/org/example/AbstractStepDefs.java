@@ -6,10 +6,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
-import java.util.Collections;
+
 
 public abstract class AbstractStepDefs {
-    private static final int WAIT_TIME = 30;
+    private static final int WAIT_TIME = 10;
     private static final WebDriver driver;
     protected static HomePage homePage;
 

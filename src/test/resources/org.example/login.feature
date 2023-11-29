@@ -1,4 +1,4 @@
-Feature: Fill out Form
+Feature: Login
 
   Background:
     Given the home page is opened
