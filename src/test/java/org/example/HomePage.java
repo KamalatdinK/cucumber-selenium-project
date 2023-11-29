@@ -16,10 +16,10 @@ public class HomePage {
     private final WebDriver driver;
 
     @FindBy(xpath = "/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[1]/div/span")
-    WebElement outputMessage1;
+    WebElement loginError1;
 
     @FindBy(xpath = "/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[1]/div/ul/li")
-    WebElement outputMessage2;
+    WebElement loginError2;
 
     @FindBy(xpath = "/html/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a")
     WebElement accountName;
@@ -74,11 +74,11 @@ public class HomePage {
     public String getPageUrl() {
         return driver.getCurrentUrl();
     }
-    public String getOutputMessage1(){
-        return outputMessage1.getText();
+    public String getLoginError1(){
+        return loginError1.getText();
     }
-    public String getOutputMessage2(){
-        return outputMessage2.getText();
+    public String getLoginError2(){
+        return loginError2.getText();
     }
 
     public String getAccountName(){ return accountName.getText();}
