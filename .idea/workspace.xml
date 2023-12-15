@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1869cc98-b1d5-44bb-b982-395c518937c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WishlistStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/giftcardStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/org.example/makingWishlist.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/org.example/shoppinggiftcard.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AbstractStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AbstractStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CommonStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CommonStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/org.example/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/org.example/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/org.example/shopping.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/org.example/shopping.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
